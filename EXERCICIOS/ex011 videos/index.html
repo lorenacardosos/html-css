@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmica</title>
+    <p>Tente abrir esse site em vários dispositivos ou amente e diminua o tamanho do seu navegador
+
+    </p>
+</head>
+<body>
+    
+    <picture>
+        <source media="(max-width:750px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML 5</p>
+    <audio src="guanacast-33.mp3" controls autoplay></audio>
+   <h1>O ideal é fazer desse jeito para ser compatível com todos os navegadores.</h1>
+   <p<audio preload="metadata" autoplay controls loop>
+    <source src="guanacast-33.mp3" type="audio/mpeg">
+    <source src="guanacast-33.ogg" type="audio/ogg">
+    <source src="guanacast-33.wav" type="audio/wav">
+    <p>Infelizmente seu navegador não consegue reproduzir aúdio.
+        <a href="guanacast-33.mp3">Clique aqui para baixar o arquivo MP3. </audio></a>
+    </p>
+    <h1>Reproduzindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu computador</p>
+    <p>
+        <video width="560" poster="capa.jfif" controls>
+            <source src="Meu-video-mp4.mp4" type="video/mp4">
+            <source src="Meu-video-webm.webm" type="video/webm">
+            <source src="Meu-Video.mov.mov" type="video/mov">
+        </video>
+    </p>
+  <h1>Reproduzindo vídeos hospedados no yotube</h1>
+ <p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/ZknEYQJg5NQ?si=feVYBF0c0-GyZgSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ </p>
+</body>
+</html>
