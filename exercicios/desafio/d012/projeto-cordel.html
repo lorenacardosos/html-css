@@ -22,11 +22,10 @@
         }
 
         body {
+            min-height: 100vh;
             font-family: var(--fonte3);
-            font-size: 3em ;
-                    
-                    
-                }
+            
+        }
 
         header {
             background-color: black;
@@ -46,14 +45,17 @@
         
         header > p {
             font-family: var(--fonte2);
-            font-size: 2.1vw;
+            font-size: 2.1vh;
             
             
         }
         section {
             padding-top: 10vh;
             padding-bottom: 10vh;
+            line-height: 2em;
             padding-left: 35px;
+            font-family: var(--fonte3);
+            font-size: 3.5vw;
         }
         
         section > p {
@@ -89,7 +91,7 @@
         }
 
         section.imagem > p {
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.185);
             color: white;
             display: inline-block;
             padding: 10px;
@@ -98,13 +100,23 @@
 
         }
 
-       
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         footer {
             background-color: black;
             color: white;
             font-family: var(--fonte1);
-            font-size: 30px;
-            text-align: center
+            font-size: 3vh;
+            text-align: center;
+            padding: 10px;
             
 
         }
