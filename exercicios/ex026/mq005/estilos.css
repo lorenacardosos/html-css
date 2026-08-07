@@ -1,1 +1,79 @@
 @charset "UTF-08"
+
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+:root {   
+    --cor-azul: #034C8C;
+    --cor-verde: #038c2556;
+    --cor-amarelo: #f2e205a4;
+    --cor-laranja: #F20705;
+    --cor-vermelho: #F20707;
+}
+
+body, html {
+    background-color:var(--cor-verde);
+}
+
+header {
+    background-color: var(--cor-azul);
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#burger {
+    display: block;
+    color: #F20705;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+nav {
+    display: none; 
+    
+}
+
+ nav > ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+} 
+ nav > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(99, 99, 99);
+    color: white;
+    border-top: 5px solid gray;
+}
+
+nav > ul > li > a:hover {
+    background-color:var(--cor-azul);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
